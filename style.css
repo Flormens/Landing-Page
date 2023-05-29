@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.header-container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+
+}
+
+.navbar li {
+
+}
+
+a {
+
+}
+
+.logo {
+
+}
+
+.links {
+
+}
+
