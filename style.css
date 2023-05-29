@@ -1,31 +1,47 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+}
+
+body {
     font-family: "Roboto";
-   /* box-sizing: border-box;*/
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 10px;
 }
 
 .header-container{
-    background-color: #1F2937;
+    
     display: flex;
-    justify-content: center;
-    height: 400px;
-    padding: 20px 0;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .navbar {
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-
+    padding: 10px 20px;
+  
 }
 
 .navbar ul {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .navbar li {
@@ -38,28 +54,19 @@
     color: #E5E7EB;
 }
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bolder;
-    display: flex;
-    justify-content: space-between;
-}
-
 .links {
     display: flex;
     justify-content: flex-end;
     }
 
+.content-container {
+    
+}
+
 .content-text h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    margin: 0 auto;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .content-text p {
@@ -71,14 +78,14 @@
 
 }
 
-.button-container {
+.signup {
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 5px 10px;
     border: none;
 }
 
-.button-container:hover {
+.signup:hover {
     color: #E8CB39
 }
 
