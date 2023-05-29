@@ -69,10 +69,6 @@ header {
     gap: 18%;
 }
 
-/*.content-text {
-    flex-grow: 1;
-}*/
-
 .content-text h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -85,9 +81,10 @@ header {
 .content-text p {
     color: #F9FAF8;
     font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
     display: flex;
     justify-content: flex-start;
-    
 
 }
 
@@ -102,13 +99,11 @@ header {
     color: #E8CB39
 }
 
-.type {
-
-}
 
 .placeholder {
     width: 200px;
     height: 300px;
+
     color: #F9FAF8;
     display: flex;
     justify-content: flex-end;
