@@ -55,6 +55,11 @@ header {
     color: #E5E7EB;
 }
 
+.navbar a:hover {
+    color: #fa3b07;
+    background-color: #f1edda;
+}
+
 .links {
     display: flex;
     justify-content: flex-end;
@@ -89,14 +94,20 @@ header {
 }
 
 .signup {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 5px 10px;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .signup:hover {
-    color: #E8CB39
+    color: #f85206;
+    background-color: #e4cf65;
 }
 
 
