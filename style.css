@@ -3,31 +3,63 @@
     padding: 0;
     border: none;
     font-family: "Roboto", Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 .header-container{
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    height: 400px;
+    padding: 20px 0;
 }
 
 .navbar ul {
-
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar li {
-
+    margin-right: 10px;
+    list-style: none;
 }
 
-a {
-
+.navbar a {
+    text-decoration: none;
+    
 }
 
 .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .links {
+
+}
+
+.content-text h1 {
+
+}
+
+.content-text p {
+
+}
+
+.button-container {
+
+}
+
+.type {
+
+}
+
+.placeholder {
 
 }
 
