@@ -62,7 +62,7 @@ header {
 }
 
 .content-container {
-    margin: 20px 10px;
+    /*margin: 20px 10px;*/
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -193,4 +193,64 @@ header {
     font-weight: bolder;
     margin-left: 500px;
     text-align: right; 
+}
+
+.call-to-action {
+    background-color: #ffffff;
+   /* margin: 0 auto;*/
+    padding: 20px 0;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.action-container {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    margin-top: 10px;
+    margin-left: 120px;
+    padding: 20px 120px;
+    width: 900px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.action-heading {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.action-info {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.action-signup {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.action-signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.action-signup button:hover {
+    color: #f85206;
+    background-color: #e4cf65;
 }
