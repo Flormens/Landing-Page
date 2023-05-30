@@ -120,15 +120,33 @@ header {
 
 .info-container {
     background-color: #FFF;
-    margin-top: 20px;
+    margin: 20px 0;
     padding: 10px 20px;
-    display: flex;
-    justify-content: center;
+    display: block;
+
 }
 
 .heading {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+
+}
+
+.square-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.square-one,
+.square-two,
+.square-three,
+.square-four {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+   
 
 }
