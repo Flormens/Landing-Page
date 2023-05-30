@@ -133,8 +133,6 @@ header {
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-
-
 }
 
 .square-container {
@@ -154,6 +152,17 @@ header {
     height: 150px;
     border: 3px solid #38b7f6;
     border-radius: 15px;
-   
+}
 
+.text-one,
+.text-two,
+.text-three,
+.text-four {
+    margin-top: 10px;
+    width: 150px;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+   
+    
 }
