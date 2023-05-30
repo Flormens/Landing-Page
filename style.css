@@ -15,8 +15,11 @@ header {
 
 .header-container{
     display: flex;
-    justify-content: center;
-    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 550px;
+    margin-bottom: 20px;
+    gap: 50%;
 }
 
 .logo {
@@ -32,6 +35,9 @@ header {
 .navbar {
     width: 90%;
     max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
@@ -58,7 +64,7 @@ header {
 .links {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
+    margin-left: 450px;
 }
 
 .content-container {
@@ -224,6 +230,7 @@ header {
 
 .action-heading {
     font-size: 24px;
+    font-weight: bold;
     color:#F9FAF8;
     font-weight: bolder;
     padding-top: 30px;
@@ -254,4 +261,17 @@ header {
 .action-signup button:hover {
     color: #f85206;
     background-color: #e4cf65;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    font-size: 20px;
+} 
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
