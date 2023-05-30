@@ -209,7 +209,7 @@ header {
 .action-container {
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #F9FAF8;
     margin-top: 10px;
     margin-left: 120px;
@@ -248,6 +248,7 @@ header {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+
 }
 
 .action-signup button:hover {
