@@ -118,3 +118,17 @@ header {
     align-items: center;
 }
 
+.info-container {
+    background-color: #FFF;
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
