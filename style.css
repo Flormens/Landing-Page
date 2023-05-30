@@ -124,7 +124,6 @@ header {
     margin: 20px 0;
     padding: 10px 20px;
     display: block;
-
 }
 
 .heading {
@@ -138,11 +137,10 @@ header {
 
 .square-container,
 .text-container {
-    margin: 0 auto;
-    padding: 0;
     display: flex;
     justify-content: center;
     margin: 20px 10px;
+    padding: 0;
     gap: 5%;
 }
 
@@ -165,8 +163,24 @@ header {
     width: 150px;
     font-size: 16px;
     font-weight: lighter;
-    text-align: center;
-    
-   
-    
+    text-align: center;  
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.quote {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    display: ;
+    justify-content: center;
+    margin: 20px 0
 }
