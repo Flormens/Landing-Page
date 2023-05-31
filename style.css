@@ -68,7 +68,7 @@ header {
 }
 
 .content-container {
-    /*margin: 20px 10px;*/
+  
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -99,6 +99,7 @@ header {
     border-radius: 5px;
     color: #F9FAF8;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     display: block;
     font-size: 16px;
@@ -115,6 +116,7 @@ header {
     width: 350px;
     height: 175px;
     margin-top: 20px;
+    
     padding: 0;
     background-color: #777777;
     color: #F9FAF8;
@@ -165,9 +167,9 @@ header {
 .text-two,
 .text-three,
 .text-four {
-    margin-top: 10px;
-    width: 150px;
-    font-size: 16px;
+    width: 160px;
+    margin-bottom: 20px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;  
 }
