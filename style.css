@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Roboto";
-    box-sizing: border-box;
 }
 
 header {
@@ -117,7 +117,7 @@ header {
     height: 175px;
     margin-top: 20px;
     
-    padding: 0;
+    padding:
     background-color: #777777;
     color: #F9FAF8;
     font-size: 16px;
@@ -203,9 +203,8 @@ header {
     text-align: right; 
 }
 
-.call-to-action {
-    background-color: #ffffff;
-   /* margin: 0 auto;*/
+/*.call-to-action {
+    background-color: #f9faf8;
     padding: 20px 0;
     height: 40vh;
     display: flex;
@@ -215,7 +214,7 @@ header {
 }
 
 .action-container {
-    background-color: #3882F6;
+    background-color: #3882f6;
     border: none;
     border-radius: 10px;
     color: #F9FAF8;
@@ -257,13 +256,14 @@ header {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    float: right;
 
 }
 
 .action-signup button:hover {
     color: #f85206;
     background-color: #e4cf65;
-}
+}*/
 
 footer {
     background-color: #1F2937;
