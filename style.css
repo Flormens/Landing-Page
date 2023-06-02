@@ -12,109 +12,103 @@ body {
     background-color: #1f2937;
     width: 100%;
     height: 10vh;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 500px;
 }
 
 .logo {
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
-    margin-right: 30px;
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
+    line-height: 70px;
+    margin-left: 170px;
 }
 
-.navbar {
-    width: 90%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-links {
+    margin-right: 170px;
 }
 
-.navbar ul {
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;   
-}
-
-.navbar li {
-    margin-right: 10px;
+.nav-links ul {
     list-style: none;  
 }
 
-.navbar a {
+.nav-links li {
+    display: inline-block;
+    line-height: 70px;
+}
+
+.nav-links a {
     text-decoration: none;
-    color: #E5E7EB;  
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-left: 20px;  
 }
 
-.navbar a:hover {
-    color: #e71017;
-    background-color: #a6d8ea;
-}
-
-.links {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 450px;
+.nav-link a:hover {
+    color: #eef0d6;
+    background-color: #5f1900;
+    padding: 10px 30px;
 }
 
 .content-container {
-  
-    padding: 20px;
+    background-color: #1f2937;
+    padding: 20px 0;
+    height: 40vh;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    gap: 18%;
+    align-items: center;
+    gap: 100px;
 }
 
 .content-text h1 {
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    width: 70%;
+    width: 50%;
+    margin-left: 170px;
     margin-bottom: 10px;
+    padding-top: 30px;
 }
 
 .content-text p {
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 16px;
-    width: 80%;
+    width: 70%;
     margin-bottom: 10px;
+    margin-left: 170px;
     display: flex;
     justify-content: flex-start;
 }
 
 .signup {
-    background-color: #3882F6;
+    background-color: #3882f6;
+    font-size: 16px;
+    color: #f9faf8;
     border: none;
     border-radius: 5px;
-    color: #F9FAF8;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 10px 20px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    padding: 10px 30px;
     display: block;
-    font-size: 16px;
     text-align: center;
     cursor: pointer;
 }
 
 .signup:hover {
-    color: #f85206;
-    background-color: #e4cf65;
+    color: #a7e3c2;
+    background-color: #390902;
 }
 
 .placeholder {
-    width: 350px;
-    height: 175px;
-    margin-top: 20px;
-    
-    padding:
-    background-color: #777777;
-    color: #F9FAF8;
+    width: 450px;
+    height: 225px;
+    margin-right: 170px;
+    background-color: #807e7d;
+    color: #f9faf8;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -123,17 +117,18 @@ body {
 }
 
 .info-container {
-    background-color: #FFF;
+    background-color: #fff;
     margin: 20px 0;
     padding: 10px 20px;
+    height: 50vh;
     display: block;
 }
 
 .heading {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
-    margin-bottom: 40px;
+    margin: 60px 0;
+    color: #1f2937;
     display: flex;
     justify-content: center;
 }
@@ -153,7 +148,7 @@ body {
 .square-four {
     width: 150px;
     height: 150px;
-    border: 3px solid #38b7f6;
+    border: 3px solid #32a7e1;
     border-radius: 15px;
     flex-shrink: 0;
 }
@@ -162,18 +157,16 @@ body {
 .text-two,
 .text-three,
 .text-four {
-    width: 160px;
-    margin-bottom: 20px;
+    width: 150px;
     font-size: 18px;
     font-weight: lighter;
     text-align: center;  
 }
 
 .quote-container {
-    background-color: #E5E7EB;
-    margin: 0 auto;
+    background-color: #e5e7eb;
     padding: 20px 0;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +174,7 @@ body {
 }
 
 .quote {
-    color:#1F2937;
+    color:#1f2937;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
@@ -191,83 +184,82 @@ body {
 }
 
 .quote-author {
-    color:#1F2937;
+    color:#1f2937;
     font-size: 24px;
     font-weight: bolder;
     margin-left: 500px;
     text-align: right; 
 }
 
-/*.call-to-action {
-    background-color: #f9faf8;
-    padding: 20px 0;
-    height: 40vh;
+.action-container {
+    background-color: #fff;
+    padding: 40px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
 }
 
-.action-container {
+ .call-to-action {
     background-color: #3882f6;
     border: none;
     border-radius: 10px;
-    color: #F9FAF8;
-    margin-top: 10px;
-    margin-left: 120px;
-    padding: 20px 120px;
-    width: 900px;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    color: #f9faf8;
+    padding: 0 100px;
+    width: 50%;
 }
 
 .action-heading {
     font-size: 24px;
-    font-weight: bold;
-    color:#F9FAF8;
+    color:#f9faf8;
     font-weight: bolder;
-    padding-top: 30px;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 .action-info {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #f9faf8;
+    font-weight: lighter;
 }
 
 .action-signup {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+    flex-direction: row;
+    align-items: self-end;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .action-signup button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 10px 30px;
-    border: 2px solid #FFF;
-    border-radius: 5px;
+    background-color: #3882f6;
     font-size: 16px;
+    font-weight: 600;
+    color: #f9faf8;
+    padding: 10px 30px;
+    margin-left: 100px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
     cursor: pointer;
-    float: right;
-
 }
 
 .action-signup button:hover {
-    color: #f85206;
-    background-color: #e4cf65;
-}*/
+    background-color: #eed4cd;
+    color: #021e32;
+}
 
 footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #1f2937;
+    color: #f9faf8;
     padding: 40px;
     font-size: 20px;
 } 
 
 .footer-container {
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
